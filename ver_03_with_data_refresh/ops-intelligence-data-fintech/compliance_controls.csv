@@ -1,0 +1,22 @@
+framework,control_id,control_name,status,score,remediation,priority
+PCI-DSS,Req.1,Network Firewall Configuration,pass,96.0,,low
+PCI-DSS,Req.2,Default Passwords and Security,pass,91.0,,low
+PCI-DSS,Req.3,Cardholder Data Storage,fail,44.0,PAN data found unmasked in 3 log streams. Purge immediately and implement tokenization.,critical
+PCI-DSS,Req.4,Encryption in Transit,pass,98.0,,low
+PCI-DSS,Req.6,Secure Development,partial,67.0,14 open critical CVEs in PCI scope. Patch within 30 days per PCI DSS 4.0 requirement.,critical
+PCI-DSS,Req.7,Access Control,partial,72.0,6 shared service accounts in payment systems must be eliminated. Implement PAM solution.,high
+PCI-DSS,Req.8,User Authentication,fail,51.0,MFA not enforced for 4 privileged users with CDE access. Immediate remediation required.,critical
+PCI-DSS,Req.10,Audit Logging,partial,78.0,HSM audit logs not centralised. Settlement service logs retention only 30 days vs required 12 months.,high
+PCI-DSS,Req.11,Security Testing,pass,88.0,Annual penetration test complete. 2 high findings remediated.,low
+PCI-DSS,Req.12,Security Policy,pass,92.0,,low
+SOC2,CC6.1,Logical Access Controls,fail,48.0,Quarterly access review overdue by 47 days. 12 terminated employee accounts still active.,critical
+SOC2,CC6.2,New User Provisioning,partial,74.0,Automated deprovisioning not implemented for contractor accounts.,high
+SOC2,CC7.1,System Operations Monitoring,pass,94.0,,low
+SOC2,CC7.2,Incident Response,pass,89.0,Tabletop exercise completed Q1 2026.,low
+SOC2,CC8.1,Change Management,partial,71.0,Settlement engine change that caused batch failure deployed without CAB approval.,high
+SOC2,CC9.1,Risk Management,fail,55.0,Annual risk assessment not completed. Q1 2026 deadline missed.,high
+GDPR,Art.5,Lawful Processing,pass,93.0,,low
+GDPR,Art.17,Right to Erasure,partial,68.0,EU customer data erasure workflow takes 47 days vs 30-day legal requirement.,critical
+GDPR,Art.25,Privacy by Design,partial,62.0,New ML fraud features processing EU data without completed DPIA.,high
+GDPR,Art.32,Security Measures,pass,86.0,,low
+GDPR,Art.33,Breach Notification,partial,70.0,Breach notification runbook not tested in 14 months. Simulate within 30 days.,medium

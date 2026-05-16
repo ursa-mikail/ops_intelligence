@@ -1,0 +1,13 @@
+title,type,status,priority,assigned_team,target_date,completion_pct,dependencies,notes
+Kubernetes 1.30 cluster upgrade,upgrade,in_progress,critical,DevOps,2026-05-30,65,"{""Node drain automation"",""Helm chart updates""}",Rolling upgrade in progress. 7/12 nodes complete.
+OpenSSH emergency patch - CVE-6387,patch,in_progress,critical,Platform,2026-05-15,80,{},Patched 16/20 systems. Remaining 4 in maintenance window.
+SOC2 Type II audit preparation,audit,in_progress,high,Security,2026-06-15,45,"{""MFA rollout"",""CC6.1 remediation"",""Evidence collection""}",Auditor engagement confirmed. Evidence portal setup complete.
+GDPR Right to Erasure fix,feature,in_progress,critical,Engineering,2026-05-31,30,"{""Legacy system mapping"",""Legal sign-off""}",Engineering sprint 2 of 4. Blockers on legacy CRM integration.
+Multi-region payment service DR,migration,planned,high,Backend,2026-08-01,5,"{""PCI-DSS scope review"",""Budget approval""}",Architecture design review complete. Awaiting budget.
+Zero-trust network architecture,migration,planned,high,Security,2026-09-01,0,"{""Vendor selection"",""Network topology review""}",RFP issued to 3 vendors. Selection Q2 2026.
+SBOM pipeline implementation,feature,in_progress,medium,DevOps,2026-06-30,20,"{""Tool selection""}",Syft + Grype POC 20% complete.
+Elasticsearch 8.x upgrade,upgrade,planned,medium,Backend,2026-07-15,0,"{""Index compatibility audit"",""Application query updates""}",EOL upgrade. Migration guide drafted.
+Centralized secrets management - Vault,feature,in_progress,high,Security,2026-06-01,55,"{""Service account audit""}",HashiCorp Vault cluster deployed. Secret migration 55% complete.
+FinOps cost optimization sprint,feature,completed,medium,Platform,2026-04-30,100,{},Achieved $18K/month savings via reserved instances and rightsizing.
+Automated compliance reporting,feature,in_progress,medium,Security,2026-07-01,35,"{""Evidence API integration""}",This platform - SOC2 and GDPR modules complete.
+Platform observability 2.0,upgrade,planned,medium,Platform,2026-08-15,0,"{""Metrics cardinality audit""}",OpenTelemetry migration from legacy metrics stack.

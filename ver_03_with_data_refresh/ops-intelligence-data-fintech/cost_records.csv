@@ -1,0 +1,49 @@
+period,category,subcategory,amount,currency,provider,resource_id
+2025-12-01,compute,EC2 payment processing fleet,71200.00,USD,AWS,ec2-payments
+2025-12-01,compute,ML inference GPU instances,38400.00,USD,AWS,ec2-gpu-ml
+2025-12-01,storage,RDS ledger databases,19800.00,USD,AWS,rds-ledger
+2025-12-01,network,Cross-region replication + CDN,14200.00,USD,AWS,net-global
+2025-12-01,platform,EKS + MSK Kafka,28600.00,USD,AWS,platform-core
+2025-12-01,security,HSM CloudHSM + WAF + Shield,22100.00,USD,AWS,sec-pci
+2025-12-01,monitoring,Datadog + PagerDuty + Splunk,11400.00,USD,Various,obs-stack
+2025-12-01,license,Visa/Mastercard processing fees,94200.00,USD,Card Networks,card-fees
+2026-01-01,compute,EC2 payment processing fleet,74800.00,USD,AWS,ec2-payments
+2026-01-01,compute,ML inference GPU instances,41200.00,USD,AWS,ec2-gpu-ml
+2026-01-01,storage,RDS ledger databases,21000.00,USD,AWS,rds-ledger
+2026-01-01,network,Cross-region replication + CDN,15800.00,USD,AWS,net-global
+2026-01-01,platform,EKS + MSK Kafka,30200.00,USD,AWS,platform-core
+2026-01-01,security,HSM CloudHSM + WAF + Shield,22100.00,USD,AWS,sec-pci
+2026-01-01,monitoring,Datadog + PagerDuty + Splunk,11400.00,USD,Various,obs-stack
+2026-01-01,license,Visa/Mastercard processing fees,101400.00,USD,Card Networks,card-fees
+2026-02-01,compute,EC2 payment processing fleet,72100.00,USD,AWS,ec2-payments
+2026-02-01,compute,ML inference GPU instances,45800.00,USD,AWS,ec2-gpu-ml
+2026-02-01,storage,RDS ledger databases,22400.00,USD,AWS,rds-ledger
+2026-02-01,network,Cross-region replication + CDN,15200.00,USD,AWS,net-global
+2026-02-01,platform,EKS + MSK Kafka,31600.00,USD,AWS,platform-core
+2026-02-01,security,HSM CloudHSM + WAF + Shield,24800.00,USD,AWS,sec-pci
+2026-02-01,monitoring,Datadog + PagerDuty + Splunk,12100.00,USD,Various,obs-stack
+2026-02-01,license,Visa/Mastercard processing fees,98600.00,USD,Card Networks,card-fees
+2026-03-01,compute,EC2 payment processing fleet,79400.00,USD,AWS,ec2-payments
+2026-03-01,compute,ML inference GPU instances,52300.00,USD,AWS,ec2-gpu-ml
+2026-03-01,storage,RDS ledger databases,24100.00,USD,AWS,rds-ledger
+2026-03-01,network,Cross-region replication + CDN,17600.00,USD,AWS,net-global
+2026-03-01,platform,EKS + MSK Kafka,33800.00,USD,AWS,platform-core
+2026-03-01,security,HSM CloudHSM + WAF + Shield,24800.00,USD,AWS,sec-pci
+2026-03-01,monitoring,Datadog + PagerDuty + Splunk,13200.00,USD,Various,obs-stack
+2026-03-01,license,Visa/Mastercard processing fees,112800.00,USD,Card Networks,card-fees
+2026-04-01,compute,EC2 payment processing fleet,84200.00,USD,AWS,ec2-payments
+2026-04-01,compute,ML inference GPU instances,58900.00,USD,AWS,ec2-gpu-ml
+2026-04-01,storage,RDS ledger databases,26400.00,USD,AWS,rds-ledger
+2026-04-01,network,Cross-region replication + CDN,19100.00,USD,AWS,net-global
+2026-04-01,platform,EKS + MSK Kafka,36200.00,USD,AWS,platform-core
+2026-04-01,security,HSM CloudHSM + WAF + Shield,26400.00,USD,AWS,sec-pci
+2026-04-01,monitoring,Datadog + PagerDuty + Splunk,14800.00,USD,Various,obs-stack
+2026-04-01,license,Visa/Mastercard processing fees,118400.00,USD,Card Networks,card-fees
+2026-05-01,compute,EC2 payment processing fleet,91800.00,USD,AWS,ec2-payments
+2026-05-01,compute,ML inference GPU instances,64200.00,USD,AWS,ec2-gpu-ml
+2026-05-01,storage,RDS ledger databases,28900.00,USD,AWS,rds-ledger
+2026-05-01,network,Cross-region replication + CDN,21400.00,USD,AWS,net-global
+2026-05-01,platform,EKS + MSK Kafka,39100.00,USD,AWS,platform-core
+2026-05-01,security,HSM CloudHSM + WAF + Shield,28100.00,USD,AWS,sec-pci
+2026-05-01,monitoring,Datadog + PagerDuty + Splunk,15600.00,USD,Various,obs-stack
+2026-05-01,license,Visa/Mastercard processing fees,124600.00,USD,Card Networks,card-fees

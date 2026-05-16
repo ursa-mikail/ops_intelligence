@@ -1,0 +1,13 @@
+cve_id,asset_id,severity,cvss_score,title,description,affected_component,resolution,status
+CVE-2024-3094,1,critical,10.0,XZ Utils Backdoor,Malicious code in xz/liblzma 5.6.0-5.6.1 allows remote code execution via SSH. Supply chain attack.,xz-utils 5.6.1,Downgrade to xz-utils 5.4.6 immediately. Check IOCs. Rotate SSH keys.,in_progress
+CVE-2024-21762,2,critical,9.6,FortiOS SSL-VPN RCE,Out-of-bounds write in FortiOS allows unauthenticated RCE via crafted HTTP requests.,FortiOS 7.4.2,Upgrade to FortiOS 7.4.3+. Disable SSL-VPN if not needed.,open
+CVE-2024-1709,3,critical,10.0,ConnectWise ScreenConnect Auth Bypass,Authentication bypass allows unauthenticated access to all functionality.,ScreenConnect 23.9.7,Update to version 23.9.8 immediately. No workaround available.,resolved
+CVE-2023-44487,1,high,7.5,HTTP/2 Rapid Reset Attack,Flaw in HTTP/2 protocol allows RST_STREAM flood causing DoS.,nginx 1.24.0,Upgrade nginx to 1.25.3+. Configure max concurrent streams.,resolved
+CVE-2024-23897,6,high,9.8,Jenkins Arbitrary File Read,Jenkins CLI allows unauthenticated file read leading to RCE via credential exposure.,Jenkins 2.441,Upgrade Jenkins to 2.442+. Disable CLI if not required.,in_progress
+CVE-2024-27198,7,critical,9.8,TeamCity Auth Bypass,JetBrains TeamCity before 2023.11.4 allows auth bypass leading to admin access.,TeamCity 2023.11.3,Upgrade to 2023.11.4 immediately. Rotate all credentials.,open
+CVE-2024-6387,9,critical,8.1,regreSSHion OpenSSH RCE,Signal handler race condition in OpenSSH allows unauthenticated RCE on glibc Linux.,OpenSSH 9.7p1,Upgrade OpenSSH to 9.8p1. Set LoginGraceTime=0 as interim mitigation.,in_progress
+CVE-2024-4577,10,critical,9.8,PHP CGI Argument Injection,PHP CGI parameter injection allows unauthenticated RCE on Windows configs.,PHP 8.3.6,Upgrade PHP to 8.3.8. Apply rewrite rules. Disable CGI mode.,open
+CVE-2023-23397,11,high,9.8,Microsoft Outlook NTLM Relay,Zero-click vulnerability allows NTLM hash theft without user interaction.,Microsoft Outlook 2021,Apply MS23-023 patch. Block outbound SMB. Enable Protected Users group.,resolved
+CVE-2024-30078,12,high,8.8,Windows WiFi Driver RCE,RCE vulnerability in Windows WiFi drivers via crafted 802.11 frames.,Windows Server 2022,Apply June 2024 Patch Tuesday updates.,accepted
+CVE-2024-21413,13,critical,9.8,Microsoft Outlook Moniker Link,Hyperlink processing flaw bypasses Protected View enabling code execution.,Microsoft Outlook,Apply MS24-002 patch. Disable hyperlink processing in untrusted emails.,open
+CVE-2024-1086,14,high,7.8,Linux Kernel netfilter UAF,Use-after-free in Linux netfilter nf_tables allows local privilege escalation.,Linux kernel 6.7.3,Upgrade kernel to 6.7.4+.,in_progress

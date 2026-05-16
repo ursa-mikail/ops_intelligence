@@ -1,0 +1,21 @@
+framework,control_id,control_name,status,score,remediation,priority
+SOC2,CC1.1,Control Environment,pass,95.0,,low
+SOC2,CC2.1,Communication and Information,partial,72.0,Update security awareness training completion to 100%,medium
+SOC2,CC6.1,Logical Access Controls,fail,45.0,Implement MFA for all privileged accounts. Remediate within 30 days.,critical
+SOC2,CC7.1,System Operations,pass,91.0,,low
+SOC2,CC8.1,Change Management,partial,68.0,Enforce change approval workflow for all production changes,high
+SOC2,CC9.1,Risk Mitigation,fail,52.0,Complete formal risk assessment documentation by Q2,high
+HIPAA,164.308a,Security Officer,pass,100.0,,low
+HIPAA,164.308b,Business Associate Agreements,partial,78.0,3 vendor BAAs pending renewal - escalate to legal,high
+HIPAA,164.312a,Access Control,fail,41.0,PHI access logs missing for 2 data stores. Enable audit logging immediately.,critical
+HIPAA,164.312b,Audit Controls,partial,65.0,Extend log retention to 6 years for PHI-adjacent systems,high
+HIPAA,164.312e,Transmission Security,pass,88.0,Review TLS 1.0/1.1 deprecation on legacy endpoints,medium
+GDPR,Art.5,Data Processing Principles,pass,90.0,,low
+GDPR,Art.13,Transparency and Privacy,partial,74.0,Update privacy notice to include AI/ML data usage,medium
+GDPR,Art.17,Right to Erasure,fail,38.0,Data deletion workflow broken for 4 systems. Fix and test by end of month.,critical
+GDPR,Art.25,Privacy by Design,partial,61.0,Conduct DPIA for new ML pipeline before launch,high
+GDPR,Art.32,Security of Processing,pass,82.0,Encrypt 2 remaining unencrypted data stores,medium
+PCI-DSS,Req.1,Network Security Controls,pass,93.0,,low
+PCI-DSS,Req.3,Cardholder Data Protection,pass,97.0,,low
+PCI-DSS,Req.6,Secure Systems and Software,partial,71.0,Patch 3 critical CVEs in CDE scope within 48 hours,critical
+PCI-DSS,Req.8,User Identification and Auth,fail,55.0,Enable MFA for all CDE access. Shared accounts must be eliminated.,critical

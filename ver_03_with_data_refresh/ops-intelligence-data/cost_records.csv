@@ -1,0 +1,43 @@
+period,category,subcategory,amount,currency,provider,resource_id
+2025-12-01,compute,EC2 instances,48200.00,USD,AWS,ec2-prod
+2025-12-01,storage,S3 + EBS,8400.00,USD,AWS,s3-ebs-prod
+2025-12-01,network,Data transfer + CloudFront,12300.00,USD,AWS,net-prod
+2025-12-01,monitoring,CloudWatch + Datadog,4200.00,USD,Datadog,mon-prod
+2025-12-01,platform,EKS + RDS + ElastiCache,22100.00,USD,AWS,platform-prod
+2025-12-01,security,Shield + WAF + GuardDuty,3800.00,USD,AWS,sec-prod
+2025-12-01,license,SaaS tools,9200.00,USD,Various,lic-prod
+2026-01-01,compute,EC2 instances,51000.00,USD,AWS,ec2-prod
+2026-01-01,storage,S3 + EBS,8900.00,USD,AWS,s3-ebs-prod
+2026-01-01,network,Data transfer + CloudFront,13100.00,USD,AWS,net-prod
+2026-01-01,monitoring,CloudWatch + Datadog,4200.00,USD,Datadog,mon-prod
+2026-01-01,platform,EKS + RDS + ElastiCache,23400.00,USD,AWS,platform-prod
+2026-01-01,security,Shield + WAF + GuardDuty,3900.00,USD,AWS,sec-prod
+2026-01-01,license,SaaS tools,9500.00,USD,Various,lic-prod
+2026-02-01,compute,EC2 instances,49800.00,USD,AWS,ec2-prod
+2026-02-01,storage,S3 + EBS,9200.00,USD,AWS,s3-ebs-prod
+2026-02-01,network,Data transfer + CloudFront,12800.00,USD,AWS,net-prod
+2026-02-01,monitoring,CloudWatch + Datadog,4500.00,USD,Datadog,mon-prod
+2026-02-01,platform,EKS + RDS + ElastiCache,23800.00,USD,AWS,platform-prod
+2026-02-01,security,Shield + WAF + GuardDuty,5200.00,USD,AWS,sec-prod
+2026-02-01,license,SaaS tools,9800.00,USD,Various,lic-prod
+2026-03-01,compute,EC2 instances,53400.00,USD,AWS,ec2-prod
+2026-03-01,storage,S3 + EBS,9800.00,USD,AWS,s3-ebs-prod
+2026-03-01,network,Data transfer + CloudFront,14200.00,USD,AWS,net-prod
+2026-03-01,monitoring,CloudWatch + Datadog,4800.00,USD,Datadog,mon-prod
+2026-03-01,platform,EKS + RDS + ElastiCache,25100.00,USD,AWS,platform-prod
+2026-03-01,security,Shield + WAF + GuardDuty,6800.00,USD,AWS,sec-prod
+2026-03-01,license,SaaS tools,10200.00,USD,Various,lic-prod
+2026-04-01,compute,EC2 instances,56200.00,USD,AWS,ec2-prod
+2026-04-01,storage,S3 + EBS,10400.00,USD,AWS,s3-ebs-prod
+2026-04-01,network,Data transfer + CloudFront,15100.00,USD,AWS,net-prod
+2026-04-01,monitoring,CloudWatch + Datadog,5100.00,USD,Datadog,mon-prod
+2026-04-01,platform,EKS + RDS + ElastiCache,26800.00,USD,AWS,platform-prod
+2026-04-01,security,Shield + WAF + GuardDuty,8200.00,USD,AWS,sec-prod
+2026-04-01,license,SaaS tools,11000.00,USD,Various,lic-prod
+2026-05-01,compute,EC2 instances,58900.00,USD,AWS,ec2-prod
+2026-05-01,storage,S3 + EBS,11200.00,USD,AWS,s3-ebs-prod
+2026-05-01,network,Data transfer + CloudFront,16400.00,USD,AWS,net-prod
+2026-05-01,monitoring,CloudWatch + Datadog,5400.00,USD,Datadog,mon-prod
+2026-05-01,platform,EKS + RDS + ElastiCache,28200.00,USD,AWS,platform-prod
+2026-05-01,security,Shield + WAF + GuardDuty,9100.00,USD,AWS,sec-prod
+2026-05-01,license,SaaS tools,11800.00,USD,Various,lic-prod

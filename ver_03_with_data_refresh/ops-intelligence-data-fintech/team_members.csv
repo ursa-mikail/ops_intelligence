@@ -1,0 +1,13 @@
+name,role,team,incidents_handled,avg_mttr_minutes,on_call_hours,satisfaction_score,certifications,availability
+Kai Nakamura,Principal Payment Engineer,Platform,52,38.2,310,8.6,"{""AWS-SAP"",""CKA"",""PCI-QSA""}",active
+Amara Osei,Senior ML Engineer,ML Engineering,31,55.4,180,9.2,"{""GCP-ML"",""AWS-MLS"",""TensorFlow-Developer""}",active
+Priscilla Vance,Compliance Architect,Compliance,14,28.0,90,8.9,"{""CISA"",""PCI-ISA"",""CIPP-E""}",active
+Dmitri Volkov,Senior SRE,Platform,44,61.8,260,7.3,"{""CKA"",""AWS-SOA""}",active
+Yuki Tanaka,Fraud Engineer,ML Engineering,27,44.1,150,8.8,"{""AWS-MLS"",""DataBricks-Associate""}",active
+Carlos Mendez,Security Engineer,Security,33,29.7,200,9.0,"{""CISSP"",""PCI-QSA"",""AWS-Security""}",active
+Fatima Al-Hassan,Data Engineer,Data,18,98.6,80,8.3,"{""dbt-Analyst"",""Snowflake-SnowPro""}",active
+Ben Okafor,DevOps Engineer,DevOps,29,72.3,190,7.0,"{""AWS-SAA"",""Terraform-Associate""}",active
+Nadia Petrov,Backend Engineer,Cards,22,88.5,120,7.8,"{""AWS-Developer""}",active
+Liam Chen,DBA,Data,16,51.2,100,8.5,"{""PostgreSQL-Associate"",""AWS-Database""}",active
+Sofia Martinez,Risk Analyst,Risk,11,140.2,60,8.1,"{""FRM"",""AWS-SAA""}",on-leave
+James Obi,Platform Engineer,Platform,9,115.8,55,6.5,"{}",active

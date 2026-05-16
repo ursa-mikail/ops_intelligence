@@ -1,0 +1,21 @@
+name,type,environment,region,owner,team,status,tags,description
+payment-gateway-us-01,server,prod,us-east-1,platform@novapay.io,Platform,healthy,"{""payment"",""critical"",""gateway""}",Primary payment processing gateway 120K TPS
+payment-gateway-eu-01,server,prod,eu-west-1,platform@novapay.io,Platform,healthy,"{""payment"",""critical"",""gateway"",""gdpr""}",EU payment gateway - GDPR compliant zone
+fraud-detection-ml-01,service,prod,us-east-1,ml@novapay.io,ML Engineering,healthy,"{""ml"",""fraud"",""realtime"",""critical""}",Real-time fraud scoring - 2ms p99 latency
+fraud-detection-ml-02,service,prod,us-east-1,ml@novapay.io,ML Engineering,degraded,"{""ml"",""fraud"",""realtime""}",Fraud model v2 - accuracy regression detected
+ledger-db-primary,database,prod,us-east-1,dba@novapay.io,Data,healthy,"{""database"",""ledger"",""critical"",""pci""}",Immutable financial ledger PostgreSQL 12TB
+ledger-db-replica-01,database,prod,us-east-1,dba@novapay.io,Data,healthy,"{""database"",""ledger"",""replica""}",Read replica for reporting and analytics
+ledger-db-replica-02,database,prod,eu-west-1,dba@novapay.io,Data,healthy,"{""database"",""ledger"",""replica"",""gdpr""}",EU read replica - data residency compliance
+kafka-cluster-prod,server,prod,us-east-1,platform@novapay.io,Platform,healthy,"{""kafka"",""streaming"",""events""}",Transaction event streaming 800K msg/sec
+kyc-service-prod,service,prod,us-east-1,compliance@novapay.io,Compliance,degraded,"{""kyc"",""compliance"",""identity""}",Know Your Customer verification service - 40% timeout rate
+aml-screening-prod,service,prod,us-east-1,compliance@novapay.io,Compliance,healthy,"{""aml"",""compliance"",""sanctions""}",Anti-money laundering screening engine
+card-issuing-service,service,prod,us-east-1,cards@novapay.io,Cards,healthy,"{""cards"",""issuing"",""visa"",""mastercard""}",Virtual and physical card issuance platform
+settlement-engine,service,prod,us-east-1,platform@novapay.io,Platform,critical,"{""settlement"",""critical"",""batch""}",Daily settlement batch - FAILED last 2 runs
+hsm-cluster-prod,server,prod,us-east-1,security@novapay.io,Security,healthy,"{""hsm"",""cryptography"",""pci"",""critical""}",Hardware security module cluster for key management
+api-gateway-public,network,prod,us-east-1,platform@novapay.io,Platform,healthy,"{""api"",""gateway"",""rate-limiting""}",Public API gateway 45K RPS external traffic
+merchant-portal-prod,service,prod,us-east-1,product@novapay.io,Product,healthy,"{""portal"",""merchant"",""dashboard""}",Merchant self-service dashboard and reporting
+risk-scoring-engine,service,prod,us-east-1,risk@novapay.io,Risk,healthy,"{""risk"",""scoring"",""realtime""}",Credit and transaction risk scoring
+chargeback-service,service,prod,us-east-1,ops@novapay.io,Operations,healthy,"{""chargeback"",""disputes"",""visa""}",Chargeback and dispute management
+data-warehouse-prod,database,prod,us-east-1,data@novapay.io,Data,healthy,"{""warehouse"",""snowflake"",""analytics""}",Snowflake data warehouse for BI and reporting
+sandbox-api-01,server,staging,us-east-1,devops@novapay.io,DevOps,healthy,"{""sandbox"",""testing"",""api""}",Developer sandbox and integration testing environment
+monitoring-observability,service,prod,us-east-1,devops@novapay.io,DevOps,healthy,"{""monitoring"",""datadog"",""pagerduty""}",Datadog + PagerDuty observability stack

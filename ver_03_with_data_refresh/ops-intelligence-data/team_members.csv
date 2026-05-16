@@ -1,0 +1,11 @@
+name,role,team,incidents_handled,avg_mttr_minutes,on_call_hours,satisfaction_score,certifications,availability
+Sarah Chen,Principal SRE,Platform,47,42.5,280,8.8,"{""CKA"",""AWS-SAP"",""CISSP""}",active
+Marcus Johnson,Senior DevOps Engineer,DevOps,38,68.2,220,7.9,"{""AWS-SOA"",""Terraform-Associate""}",active
+Elena Rodriguez,Security Engineer,Security,29,31.0,180,9.1,"{""CISSP"",""CEH"",""AWS-Security""}",active
+David Kim,Staff Backend Engineer,Backend,22,55.8,140,8.2,"{""AWS-Developer""}",active
+Priya Patel,Data Engineer,Data,15,120.4,80,8.5,"{""dbt-Analyst"",""Airflow-Certified""}",active
+James Thompson,Site Reliability Engineer,Platform,31,78.3,200,7.4,"{""CKA"",""AWS-SOA""}",active
+Aisha Williams,Cloud Security Architect,Security,18,25.6,120,9.4,"{""CCSP"",""CISM"",""AWS-Security""}",active
+Ryan Martinez,DevOps Engineer,DevOps,25,91.2,160,7.1,"{""AWS-SAA""}",on-leave
+Lisa Park,DBA,Data,19,62.8,100,8.0,"{""PostgreSQL-Associate""}",active
+Tom Wilson,Platform Engineer,Platform,12,110.5,60,6.8,"{}",active

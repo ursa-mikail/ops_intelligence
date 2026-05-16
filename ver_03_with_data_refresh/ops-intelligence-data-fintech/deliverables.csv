@@ -1,0 +1,13 @@
+title,type,status,priority,assigned_team,target_date,completion_pct,dependencies,notes
+Settlement engine emergency fix - schema rollback,patch,in_progress,critical,Platform,2026-05-15,70,"{""DB migration lock release"",""Visa settlement ops approval""}",All hands incident. Rollback 80% complete. Settlement window at risk.
+PAN data log purge and PCI Req.3 remediation,patch,in_progress,critical,Security,2026-05-15,40,"{""Legal hold clearance"",""Forensics sign-off""}",PCI QSA engaged. Log purge tool built. Awaiting legal clearance.
+Fraud model v3 retrain and deploy,feature,in_progress,critical,ML Engineering,2026-05-17,35,"{""Feature pipeline fix"",""GPU cluster availability"",""A/B test framework""}",Retraining on corrected feature set. Shadow mode testing planned before cutover.
+Automated employee offboarding - SSO deprovisioning,feature,in_progress,high,DevOps,2026-05-23,60,"{""HR system API access"",""Okta workflow approval""}",Workflow built and tested in staging. Prod deployment pending approval.
+Payment gateway certificate auto-renewal fix,patch,completed,critical,Platform,2026-05-13,100,"{}",$Cert Manager ACME config corrected. Automated test added to catch silent failures.
+PCI DSS 4.0 upgrade - full compliance programme,audit,in_progress,high,Compliance,2026-09-30,28,"{""Req.3 log remediation"",""Req.8 MFA rollout"",""Req.7 PAM implementation""}",QSA engaged for gap assessment. 14 findings to remediate before certification audit.
+Privileged Access Management (PAM) implementation,feature,in_progress,high,Security,2026-07-31,15,"{""Vendor selection"",""Directory services integration""}",CyberArk selected. Professional services SOW in review.
+ML feature store - prevent training/serving skew,feature,in_progress,high,ML Engineering,2026-06-30,40,"{""Feast feature store deployment"",""Data pipeline refactor""}",Direct response to fraud model incident. Feast deployed in dev.
+OFAC sanctions feed parser rewrite,patch,completed,high,Compliance,2026-05-14,100,"{}",New parser handles OFAC XML schema v2.1. Daily health check alert added.
+Kafka retention policy governance,feature,in_progress,medium,Platform,2026-06-15,50,"{""Retention policy audit"",""Disk capacity planning""}",Topic-level retention controls implemented. Monitoring dashboards live.
+EU data residency mapping and erasure automation,feature,in_progress,medium,Data,2026-06-30,22,"{""Legacy system inventory"",""GDPR legal review""}",3 unmapped EU data stores identified. Erasure API being built.
+HSM node-3 replacement and quorum restoration,migration,planned,medium,Security,2026-06-01,5,"{""Hardware RMA"",""HSM vendor engineer""}",Dell HSM RMA submitted. Quorum restoration ceremony scheduled upon hardware receipt.

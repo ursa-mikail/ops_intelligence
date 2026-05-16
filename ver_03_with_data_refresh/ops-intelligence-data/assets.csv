@@ -1,0 +1,21 @@
+name,type,environment,region,owner,team,status,tags,description
+api-gateway-prod-01,server,prod,us-east-1,infra@corp.com,Platform,healthy,"{""gateway"",""critical"",""load-balanced""}",Primary API gateway handling 50K RPS
+api-gateway-prod-02,server,prod,us-east-1,infra@corp.com,Platform,healthy,"{""gateway"",""critical"",""load-balanced""}",Secondary API gateway failover
+postgres-primary-prod,database,prod,us-east-1,dba@corp.com,Data,healthy,"{""database"",""postgres"",""critical""}",Primary PostgreSQL cluster 4TB
+postgres-replica-prod,database,prod,us-east-1,dba@corp.com,Data,healthy,"{""database"",""postgres"",""replica""}",Read replica for analytics
+redis-cluster-prod,server,prod,us-east-1,backend@corp.com,Backend,healthy,"{""cache"",""redis"",""session""}",Redis cluster 64GB cache
+k8s-node-worker-01,container,prod,us-east-1,devops@corp.com,DevOps,healthy,"{""kubernetes"",""worker""}",K8s worker node pool A
+k8s-node-worker-02,container,prod,us-east-1,devops@corp.com,DevOps,degraded,"{""kubernetes"",""worker"",""degraded""}",K8s worker node pool B - disk pressure
+k8s-node-worker-03,container,prod,us-west-2,devops@corp.com,DevOps,healthy,"{""kubernetes"",""worker""}",K8s worker node pool C west
+auth-service-prod,service,prod,us-east-1,security@corp.com,Security,healthy,"{""auth"",""oauth"",""identity""}",OAuth2/OIDC identity service
+payment-service-prod,service,prod,us-east-1,payments@corp.com,Backend,healthy,"{""payment"",""pci"",""critical""}",Stripe integration payment processor
+notification-service,service,prod,us-east-1,backend@corp.com,Backend,degraded,"{""notifications"",""email"",""sms""}",Email and SMS notification service
+cdn-cloudfront-prod,network,prod,global,infra@corp.com,Platform,healthy,"{""cdn"",""cloudfront"",""edge""}",CloudFront CDN global distribution
+vpc-main-prod,network,prod,us-east-1,security@corp.com,Security,healthy,"{""vpc"",""network"",""firewall""}",Production VPC with WAF
+monitoring-stack,service,prod,us-east-1,devops@corp.com,DevOps,healthy,"{""monitoring"",""prometheus"",""grafana""}",Prometheus + Grafana + AlertManager
+data-pipeline-etl,service,prod,us-east-1,data@corp.com,Data,healthy,"{""etl"",""airflow"",""data""}",Apache Airflow data pipelines
+search-elasticsearch,server,prod,us-east-1,backend@corp.com,Backend,healthy,"{""search"",""elasticsearch"",""log""}",Elasticsearch cluster for search and logs
+backup-s3-prod,storage,prod,us-east-1,dba@corp.com,Data,healthy,"{""backup"",""s3"",""storage""}",S3 backup buckets with lifecycle
+staging-api-01,server,staging,us-east-1,devops@corp.com,DevOps,healthy,"{""staging"",""api""}",Staging API environment
+dev-database-01,database,dev,us-east-1,dev@corp.com,Engineering,healthy,"{""dev"",""database""}",Dev PostgreSQL instance
+waf-shield-prod,network,prod,global,security@corp.com,Security,critical,"{""waf"",""security"",""ddos""}",AWS WAF + Shield - DDoS event detected

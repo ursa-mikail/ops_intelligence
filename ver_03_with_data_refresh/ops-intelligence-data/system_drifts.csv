@@ -1,0 +1,16 @@
+asset_id,drift_type,component,expected_value,actual_value,severity,acknowledged,change_count
+1,config,nginx worker_processes,auto,4,low,false,1
+1,config,nginx client_max_body_size,10m,100m,high,false,3
+3,config,pg max_connections,200,500,medium,false,2
+3,config,pg shared_buffers,4GB,2GB,high,false,1
+6,package,kubectl version,1.29.0,1.28.5,medium,false,1
+7,permission,/var/log permissions,755,777,critical,false,5
+9,secret,JWT secret rotation,90 days,387 days,critical,false,0
+10,config,payment timeout_ms,5000,30000,high,false,2
+11,network,SMTP relay whitelist,10.0.0.0/8,0.0.0.0/0,critical,false,1
+14,package,prometheus version,2.50.0,2.47.2,low,false,0
+15,config,airflow max_active_runs,16,64,medium,false,4
+16,config,ES heap_size,50% RAM,4GB fixed,high,false,1
+20,config,WAF rate_limit_rps,10000,100000,critical,false,2
+5,config,redis maxmemory-policy,allkeys-lru,noeviction,critical,false,1
+13,network,VPC flow logs,enabled,disabled,high,false,0

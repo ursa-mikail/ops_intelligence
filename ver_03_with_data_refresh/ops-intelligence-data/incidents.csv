@@ -1,0 +1,16 @@
+asset_id,title,severity,category,frequency,intensity,start_time,end_time,resolved,mttr_minutes,impact,root_cause
+1,API Gateway Latency Spike,high,performance,1,8.5,2026-05-13 02:00:00,2026-05-13 04:00:00,true,120,P1 - 15% of requests timing out,Memory leak in request handler pool
+3,PostgreSQL Replication Lag,critical,database,1,9.2,2026-05-10 06:00:00,2026-05-10 10:00:00,true,240,P0 - Read replicas 4 hours behind,Network partition between AZs
+20,DDoS Attack - WAF Event,critical,security,3,9.8,2026-05-14 10:00:00,,false,,P0 - 2M RPS attack partial degradation,Botnet targeting payment endpoints
+7,K8s Node Disk Pressure,medium,infrastructure,2,5.0,2026-05-12 08:00:00,2026-05-12 09:30:00,true,90,P2 - Pod evictions on worker-02,Log rotation misconfiguration
+11,Notification Service Failures,high,application,5,7.0,2026-05-08 14:00:00,2026-05-09 02:00:00,true,360,P1 - 30% email delivery failure,SMTP rate limits exceeded
+9,Auth Service Token Validation Error,high,security,1,7.8,2026-05-01 22:00:00,2026-05-01 23:00:00,true,60,P1 - JWT validation rejecting tokens,Certificate rotation timing issue
+5,Redis Cluster Memory Exhaustion,critical,performance,1,9.5,2026-04-25 16:00:00,2026-04-25 16:45:00,true,45,P0 - Cache miss rate 95%,Session data not expiring properly
+10,Payment Service Timeout,critical,application,2,8.9,2026-04-15 20:00:00,2026-04-15 23:00:00,true,180,P0 - Payment failures 8 minutes,Stripe API rate limit hit during promo
+15,ETL Pipeline Failure,medium,data,3,6.5,2026-04-05 04:00:00,2026-04-05 12:00:00,true,480,P2 - Daily reports delayed 8 hours,Schema change broke pipeline ingestion
+16,Elasticsearch Index Corruption,high,data,1,8.0,2026-03-21 02:00:00,2026-03-22 02:00:00,true,720,P1 - Search unavailable 12 hours,Ungraceful node shutdown during reindex
+1,API Rate Limit Cascade,medium,performance,4,5.5,2026-03-11 10:00:00,2026-03-11 10:30:00,true,30,P2 - Third-party integrations throttled,Misconfigured rate limit headers
+6,K8s Deployment Rollout Failure,high,infrastructure,1,7.2,2026-03-01 14:00:00,2026-03-01 16:30:00,true,150,P1 - New version failed health checks,Readiness probe misconfiguration
+3,Database Connection Pool Exhaustion,critical,database,2,9.0,2026-02-13 08:00:00,2026-02-13 08:35:00,true,35,P0 - App cannot connect to DB,Connection leak in ORM retry logic
+12,CDN Cache Poisoning Attempt,high,security,1,7.5,2026-02-03 18:00:00,2026-02-03 18:20:00,true,20,P1 - Malicious cache headers detected,Missing cache-control validation
+9,SSO Federation Outage,critical,security,1,9.3,2026-01-24 14:00:00,2026-01-24 18:00:00,true,240,P0 - All SSO logins failing 4 hours,IdP certificate expired
